@@ -1,0 +1,11 @@
+<h1>Ship Detail {{ship.name}}</h1>
+
+<!-- you can not only ng-repeat over arrays, but also over objects -->
+
+<div ng-repeat="(key, value) in ship ">
+    <span ng-show="value.length != undefined">{{key}} : {{value}}</span>
+
+</div>
+
+
+
